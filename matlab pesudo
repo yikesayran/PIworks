@@ -1,0 +1,12 @@
+# PIworks
+A = [];      
+x = 0;       
+ 
+for num = 500:599
+    if isprime(num)
+        x = x + 1;
+        A(x) = num;
+    end
+end
+ 
+disp(A)
